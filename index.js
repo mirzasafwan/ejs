@@ -1,11 +1,11 @@
 const express = require("express");
-// const ejs = require("ejs");
+const ejs = require("ejs");
 const app = express();
-app.get("/", (req, res) => {
-  res.json({
-    msg: "Success",
-  });
-});
+// app.get("/", (req, res) => {
+//   res.json({
+//     msg: "Success",
+//   });
+// });
 app.set("views", "./views");
 app.set("view engine", "ejs");
 
